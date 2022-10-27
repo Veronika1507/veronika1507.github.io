@@ -1,9 +1,74 @@
-<html>
- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="./resources/css/index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors cheat sheet</title>
+</head>
 <body>
-  <h1>My name is Veronika</h1>
-  <p>Welcome to my website!</p>
-  <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <h1>CSS selectors</h1>
+    <table>
+      <tr>
+        <th>CSS selectors</th>
+        <th>Example of selector</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+      <td>.class</td>
+       <td>.introduction</td>
+        <td>Selects all elements with class="intro"</td>
+        </tr>
+        <tr>
+      <td>#id</td>
+       <td>#white</td>
+        <td>Selects the element with id="white"</td>
+        </tr>
+        <tr>
+      <td>*</td>
+       <td>*</td>
+        <td>Selects all elements </td>
+        </tr>
+        <tr>
+           <td>element</td>
+           <td>a</td>
+            <td>Selects all &lt;a&gt; elements</td>
+             </tr>
+          <tr>
+      <td>element.class</td>
+       <td>p.introduction</td>
+        <td>Selects all &lt;p&gt; elements with class="introduction" </td>
+           </tr>
+          <tr>
+      <td>element,element</td>
+       <td>h1,div</td>
+        <td>Selects all &lt;h1&gt; and all &lt;div&gt; elements</td>
+           </tr>
+           <tr>
+      <td>element element</td>
+       <td>div p</td>
+        <td>Selects all &lt;p&gt; elements inside &lt;div&gt; elements</td>
+           </tr>
+            <tr>
+      <td>element>element</td>
+       <td>div > p</td>
+        <td>Selects all &lt;p&gt; elements where the parent is a &lt;div&gt; element</td>
+           </tr>
+           <tr>
+      <td>element+element</td>
+       <td>div + p</td>
+        <td>Selects the first &lt;p&gt; element that is placed immediately after &lt;div&gt; elements</td>
+           </tr>
+          <tr>
+      <td>element1 ~ element2</td>
+       <td>h1 ~ p</td>
+        <td>Selects every  first &lt;p&gt; element that is preceded by a &lt;h1&gt; element</td>
+           </tr>
+
+    </table>
 </body>
- 
 </html>
+
+
+ <!-- C:\Users\veron\OneDrive\Desktop\Codecademy Projects\Cheat Sheets\index.html -->
